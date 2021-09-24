@@ -70,7 +70,7 @@ public class myadapter extends FirebaseRecyclerAdapter<model,myadapter.myviewhol
 
                name.setText(model.getName());
                description.setText(model.getDescription());
-               price.setText(model.getPrice());
+               price.setText("Rs."+model.getPrice());
                furl.setText(model.getFurl());
 
                 dialogPlus.show();

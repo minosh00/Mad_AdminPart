@@ -8,7 +8,7 @@
     android:gravity="center"
     android:alpha="0.8"
     android:layout_alignParentBottom="true"
-    android:background="@drawable/ba"
+    android:background="@drawable/k"
     tools:context=".adddata">
 
     <TextView
@@ -91,6 +91,7 @@
                 android:elevation="6dp"
                 android:alpha="0.9"
                 android:hint="Price"
+                android:inputType="phone"
                 android:textStyle="bold"
                 android:paddingStart="13dp"
                 android:textColor="@color/white"
@@ -114,7 +115,7 @@
                 android:paddingStart="13dp"
                 android:textColor="@color/white"
                 android:textColorHint="@color/white"
-                android:textSize="27sp" />
+                android:textSize="25sp" />
 
             <Button
                 android:id="@+id/add_submit"

@@ -6,7 +6,7 @@
     android:orientation="vertical"
     android:alpha="0.8"
     android:layout_alignParentBottom="true"
-    android:background="@drawable/oky">
+    android:background="@drawable/piz">
 
     <TextView
         android:layout_width="match_parent"
@@ -60,7 +60,7 @@
         android:textStyle="bold"
         android:textColor="@color/white"
         android:textColorHint="@color/white"
-        android:textSize="30sp" />
+        android:textSize="32sp" />
 
     <EditText
         android:id="@+id/uprice"
@@ -75,6 +75,7 @@
         android:elevation="6dp"
         android:hint="Price"
         android:textStyle="bold"
+        android:inputType="phone"
         android:paddingStart="13dp"
         android:textColor="@color/white"
         android:textColorHint="@color/white"
@@ -97,7 +98,7 @@
         android:textStyle="bold"
         android:textColor="@color/white"
         android:textColorHint="@color/white"
-        android:textSize="30sp" />
+        android:textSize="27sp" />
 
     <Button
         android:id="@+id/usubmit"
@@ -111,6 +112,7 @@
         android:background="@drawable/button_back"
         android:hint="Update Food "
         android:padding="2dp"
+        android:textStyle="bold|italic"
         android:text="Update Food"
         android:textColor="@color/myblue"
         android:textSize="25sp" />

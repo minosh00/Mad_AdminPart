@@ -12,13 +12,14 @@
         android:layout_height="279dp"
         android:background="@color/black_shade_1"
         android:orientation="vertical"
+
         android:padding="1dp">
 
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-
+            android:background="@drawable/custome_edittext"
             android:orientation="horizontal">
 
             <de.hdodenhof.circleimageview.CircleImageView
@@ -84,7 +85,7 @@
 
 
             <ImageView
-                android:id="@+id/deleteicon"
+
                 android:layout_width="337dp"
                 android:layout_height="94dp"
                 android:layout_marginLeft="30dp"
