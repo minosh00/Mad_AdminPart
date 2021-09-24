@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/minos/AndroidStudioProjects/AdminPART2/app/src/main/res/drawable-v24/button_back.xml" value="0.2203125" />
+        <entry key="..\:/Users/minos/AndroidStudioProjects/AdminPART2/app/src/main/res/drawable-v24/progress_back.xml" value="0.2203125" />
+        <entry key="..\:/Users/minos/AndroidStudioProjects/AdminPART2/app/src/main/res/drawable-v24/rounded_drawable.xml" value="0.2203125" />
+        <entry key="..\:/Users/minos/AndroidStudioProjects/AdminPART2/app/src/main/res/drawable/custom_btn.xml" value="0.2046875" />
+        <entry key="..\:/Users/minos/AndroidStudioProjects/AdminPART2/app/src/main/res/drawable/custome_edittext.xml" value="0.2203125" />
+        <entry key="..\:/Users/minos/AndroidStudioProjects/AdminPART2/app/src/main/res/drawable/ic_baseline_add_circle_outline_24.xml" value="0.125" />
+        <entry key="..\:/Users/minos/AndroidStudioProjects/AdminPART2/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.125" />
+        <entry key="..\:/Users/minos/AndroidStudioProjects/AdminPART2/app/src/main/res/layout/activity_adddata.xml" value="0.18854166666666666" />
+        <entry key="..\:/Users/minos/AndroidStudioProjects/AdminPART2/app/src/main/res/layout/activity_admin_login.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/minos/AndroidStudioProjects/AdminPART2/app/src/main/res/layout/activity_all_food.xml" value="0.17239583333333333" />
+        <entry key="..\:/Users/minos/AndroidStudioProjects/AdminPART2/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/minos/AndroidStudioProjects/AdminPART2/app/src/main/res/layout/cusfood.xml" value="0.17239583333333333" />
+        <entry key="..\:/Users/minos/AndroidStudioProjects/AdminPART2/app/src/main/res/layout/dialogcontent.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/minos/AndroidStudioProjects/AdminPART2/app/src/main/res/layout/singlerow.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/minos/AndroidStudioProjects/AdminPART2/app/src/main/res/layout/update_food.xml" value="0.18854166666666666" />
+        <entry key="..\:/Users/minos/AndroidStudioProjects/AdminPART2/app/src/main/res/menu/menu_main.xml" value="0.18854166666666666" />
+        <entry key="..\:/Users/minos/AndroidStudioProjects/AdminPART2/app/src/main/res/menu/searchmenu.xml" value="0.18854166666666666" />
+        <entry key="..\:/Users/minos/AndroidStudioProjects/AdminPART2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2" />
+        <entry key="..\:/Users/minos/AndroidStudioProjects/AdminPART2/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

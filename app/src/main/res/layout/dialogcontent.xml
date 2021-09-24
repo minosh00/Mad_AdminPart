@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:alpha="0.8"
+    android:layout_alignParentBottom="true"
+    android:background="@drawable/oky">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/red"
+        android:layout_marginBottom="60dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:gravity="center"
+        android:text="Update Food  Item "
+        android:textColor="#DAD8D8"
+        android:textSize="30sp"
+        android:textStyle="bold|italic" />
+
+
+
+
+    <EditText
+        android:id="@+id/uname"
+        android:layout_width="380dp"
+        android:layout_height="55dp"
+      android:layout_marginTop="20dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginBottom="39dp"
+        android:background="@drawable/custome_edittext"
+        android:drawableStart="@drawable/food"
+        android:drawablePadding="29dp"
+        android:elevation="6dp"
+        android:ems="10"
+        android:hint="Update Food  Name "
+        android:paddingStart="13dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="32sp" />
+
+
+    <EditText
+        android:id="@+id/udescription"
+        android:layout_width="380dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="1dp"
+        android:background="@drawable/custome_edittext"
+        android:drawableStart="@drawable/ic_description"
+        android:drawablePadding="29dp"
+        android:elevation="6dp"
+        android:ems="10"
+        android:layout_marginBottom="20dp"
+        android:hint="Food Descripption"
+        android:paddingStart="13dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/uprice"
+        android:layout_width="380dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/custome_edittext"
+        android:drawableStart="@drawable/ic_baseline_payment_24"
+        android:drawablePadding="29dp"
+        android:elevation="6dp"
+        android:hint="Price"
+        android:textStyle="bold"
+        android:paddingStart="13dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="30sp" />
+
+
+
+    <EditText
+        android:id="@+id/uimgurl"
+        android:layout_width="380dp"
+        android:layout_height="79dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/custome_edittext"
+        android:drawableStart="@drawable/ic_baseline_image"
+        android:drawablePadding="29dp"
+        android:elevation="6dp"
+        android:hint="Profile Image URL"
+        android:paddingStart="13dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/usubmit"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:layout_margin="22dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/button_back"
+        android:hint="Update Food "
+        android:padding="2dp"
+        android:text="Update Food"
+        android:textColor="@color/myblue"
+        android:textSize="25sp" />
+    />
+
+</LinearLayout>

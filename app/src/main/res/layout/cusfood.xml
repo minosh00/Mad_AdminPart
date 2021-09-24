@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/black_shade_1"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="8dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="411dp"
+        android:layout_height="279dp"
+        android:background="@color/black_shade_1"
+        android:orientation="vertical"
+        android:padding="1dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/img1"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_centerVertical="false"
+                android:src="@mipmap/ic_launcher"
+                app:civ_border_color="@color/white"
+                app:civ_border_width="2dp" />
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/nametext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@id/img1"
+                    android:paddingTop="10dp"
+                    android:text="This is Demo Name"
+                    android:textColor="@color/white"
+                    android:textSize="27sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/descriptiontext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/nametext"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@id/img1"
+                    android:text="This is Course Name"
+                    android:textColor="@color/white"
+                    android:textSize="25sp" />
+
+
+                <TextView
+                    android:id="@+id/pricetext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/descriptiontext"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_toRightOf="@id/img1"
+                    android:text="This price  Name"
+                    android:textColor="@color/white"
+                    android:textSize="26sp" />
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="27dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+
+            <ImageView
+                android:id="@+id/deleteicon"
+                android:layout_width="337dp"
+                android:layout_height="94dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="6dp"
+                android:layout_weight="1"
+                android:paddingTop="0dp"
+                android:src="@drawable/buyy" />
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
